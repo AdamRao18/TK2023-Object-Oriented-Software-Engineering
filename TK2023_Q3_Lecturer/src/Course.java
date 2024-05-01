@@ -4,7 +4,8 @@ public class Course {
 	private Lecturer lecturer;
 	
 	public Course(String code, String name) {
-		code = code;
+		this.code = code;
+		this.name = name;
 	} 
 	
 	public String getCode() {

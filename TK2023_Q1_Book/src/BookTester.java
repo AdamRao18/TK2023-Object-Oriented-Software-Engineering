@@ -11,6 +11,6 @@ public class BookTester {
 
 	@Test
 	public void testGetAuthor() {
-		// Method will pass if the author is as expected
+		assertEquals("J.R.R. Tolkien", book.getAuthor());
 	}
 }

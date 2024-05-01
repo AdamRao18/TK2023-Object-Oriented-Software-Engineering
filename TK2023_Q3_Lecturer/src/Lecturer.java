@@ -3,7 +3,7 @@ public class Lecturer {
 	private String name;	
 		
 	public Lecturer(String n) {
-		name = n;
+		n = name;
 	} 
 	
 	public String getName() {

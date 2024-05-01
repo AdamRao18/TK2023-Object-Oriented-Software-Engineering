@@ -3,25 +3,25 @@ import org.junit.Test;
 
 public class CalculatorTester {
 
-	// Create and initialise fixture object(s)
+	private Calculator calc = new Calculator();
 
 	@Test
 	public void testAddTwoInteger() {
-		// Method will pass if the result is as expected
+		assertEquals(12, calc.addTwoInteger(10,2));
 	}
 
 	@Test
 	public void testSubtractTwoInteger() {
-		// Method will pass if the result is as expected
+		assertEquals(10-2, calc.subtractTwoInteger(10,2));
 	}
 
 	@Test
 	public void testMultiplyTwoInteger() {
-		// Method will pass if the result is as expected
+		assertEquals(10*2, calc.multiplyTwoInteger(10,2));
 	}
 
 	@Test
 	public void testDivideTwoInteger() {
-		// Method will pass if the result is as expected
+		assertEquals(10/2, calc.divideTwoInteger(10,2));
 	}
 }
